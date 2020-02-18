@@ -1,4 +1,4 @@
-USE test;
+USE rise;
 
 INSERT INTO Devices(`device_eui`, `app_eui`, `name`, `description`) VALUES("0011223300112233", "0011001100110011", "Device 1", "Weather station");
 INSERT INTO Devices(`device_eui`, `app_eui`, `name`, `description`) VALUES("4455667744556677", "0011001100110011", "Device 2", "Kattklappare");
