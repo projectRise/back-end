@@ -10,8 +10,8 @@ CREATE TABLE `Devices`
   `id` INT NOT NULL AUTO_INCREMENT,
   `device_eui` VARCHAR(16),
   `app_eui` VARCHAR(16),
-  `name` VARCHAR(32),
-  `description` VARCHAR(64),
+  `name` VARCHAR(255),
+  `description` VARCHAR(255),
   
   PRIMARY KEY (`id`)
 );
@@ -20,8 +20,8 @@ CREATE TABLE `Sensors`
 (
   `id` INT NOT NULL AUTO_INCREMENT,
   `adjust` BOOLEAN NOT NULL DEFAULT FALSE,
-  `name` VARCHAR(32),
-  `description` VARCHAR(64),
+  `name` VARCHAR(255),
+  `description` VARCHAR(255),
   
   PRIMARY KEY (`id`)
 );
