@@ -19,6 +19,7 @@ CREATE TABLE `Devices`
 CREATE TABLE `Sensors`
 (
   `id` INT NOT NULL AUTO_INCREMENT,
+  `adjust` BOOLEAN NOT NULL DEFAULT FALSE,
   `name` VARCHAR(32),
   `description` VARCHAR(64),
   
