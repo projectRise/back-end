@@ -1,0 +1,13 @@
+# PlatformIO
+.pio/
+.travis.yml
+
+# Visual Studio
+.vs/
+Debug/
+Release/
+*.sln
+*.vcxproj*
+
+# Config
+config.h
